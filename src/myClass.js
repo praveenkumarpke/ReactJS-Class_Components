@@ -20,8 +20,8 @@ class Myclass extends React.Component {
         return (
             <>
                 <div>
-                    <h1>firstName : {this.state.fname}</h1>
-                    <p>lastName : {this.state.lname}</p>
+                    <h1 style={{color :'green'}}>firstName : {this.state.fname}</h1>
+                    <p style={{color:'blue'}}>lastName : {this.state.lname}</p>
                     <button onClick={this.updateState}>click me!</button>
                 </div>
             </>
